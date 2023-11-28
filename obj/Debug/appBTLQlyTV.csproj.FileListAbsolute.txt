@@ -1,0 +1,14 @@
+E:\C#\BTL_PTUDCSDL\bin\Debug\appBTLQlyTV.exe.config
+E:\C#\BTL_PTUDCSDL\bin\Debug\appBTLQlyTV.exe
+E:\C#\BTL_PTUDCSDL\bin\Debug\appBTLQlyTV.pdb
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.csproj.AssemblyReference.cache
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.csproj.SuggestedBindingRedirects.cache
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fPublisher.resources
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.Properties.Resources.resources
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.csproj.GenerateResource.cache
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.csproj.CoreCompileInputs.cache
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.exe
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.pdb
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fLatePaid.resources
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fMain.resources
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fLogin.resources
