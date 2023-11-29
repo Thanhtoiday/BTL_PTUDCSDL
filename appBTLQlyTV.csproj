@@ -52,6 +52,18 @@
     <Compile Include="DataProvider.Designer.cs">
       <DependentUpon>DataProvider.cs</DependentUpon>
     </Compile>
+    <Compile Include="fAccountManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAccountManagement.Designer.cs">
+      <DependentUpon>fAccountManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBookSelf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBookSelf.Designer.cs">
+      <DependentUpon>fBookSelf.cs</DependentUpon>
+    </Compile>
     <Compile Include="fLatePaid.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fAccountManagement.resx">
+      <DependentUpon>fAccountManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBookSelf.resx">
+      <DependentUpon>fBookSelf.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fLatePaid.resx">
       <DependentUpon>fLatePaid.cs</DependentUpon>
     </EmbeddedResource>

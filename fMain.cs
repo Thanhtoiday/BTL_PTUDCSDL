@@ -44,5 +44,21 @@ namespace appBTLQlyTV
                 this.Show();
             }
         }
+
+        private void kệSáchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fBookSelf b = new fBookSelf();
+            this.Hide();
+            b.ShowDialog();
+            this.Show();
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fAccountManagement Account = new fAccountManagement();
+            this.Hide();
+            Account.ShowDialog();
+            this.Show();
+        }
     }
 }
