@@ -12,3 +12,5 @@ E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.pdb
 E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fLatePaid.resources
 E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fMain.resources
 E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fLogin.resources
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fAccountManagement.resources
+E:\C#\BTL_PTUDCSDL\obj\Debug\appBTLQlyTV.fBookSelf.resources
