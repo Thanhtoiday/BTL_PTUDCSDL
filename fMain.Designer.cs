@@ -72,7 +72,7 @@
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.đăngXuấtToolStripMenuItem.Text = "Quản lý tài khoản";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
@@ -116,13 +116,14 @@
             // sáchMượnToolStripMenuItem
             // 
             this.sáchMượnToolStripMenuItem.Name = "sáchMượnToolStripMenuItem";
-            this.sáchMượnToolStripMenuItem.Size = new System.Drawing.Size(221, 26);
+            this.sáchMượnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sáchMượnToolStripMenuItem.Text = "Lập phiếu mượn";
+            this.sáchMượnToolStripMenuItem.Click += new System.EventHandler(this.sáchMượnToolStripMenuItem_Click);
             // 
             // lậpPhiếuTrảMuộnToolStripMenuItem
             // 
             this.lậpPhiếuTrảMuộnToolStripMenuItem.Name = "lậpPhiếuTrảMuộnToolStripMenuItem";
-            this.lậpPhiếuTrảMuộnToolStripMenuItem.Size = new System.Drawing.Size(221, 26);
+            this.lậpPhiếuTrảMuộnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.lậpPhiếuTrảMuộnToolStripMenuItem.Text = "Lập phiếu trả muộn";
             this.lậpPhiếuTrảMuộnToolStripMenuItem.Click += new System.EventHandler(this.lậpPhiếuTrảMuộnToolStripMenuItem_Click);
             // 
@@ -159,7 +160,7 @@
             // kệSáchToolStripMenuItem
             // 
             this.kệSáchToolStripMenuItem.Name = "kệSáchToolStripMenuItem";
-            this.kệSáchToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.kệSáchToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.kệSáchToolStripMenuItem.Text = "Kệ sách";
             this.kệSáchToolStripMenuItem.Click += new System.EventHandler(this.kệSáchToolStripMenuItem_Click);
             // 
