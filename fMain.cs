@@ -60,5 +60,12 @@ namespace appBTLQlyTV
             Account.ShowDialog();
             this.Show();
         }
+
+        private void sáchMượnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fBorrow borrow = new fBorrow();
+            this.Close();
+            borrow.ShowDialog();
+        }
     }
 }
