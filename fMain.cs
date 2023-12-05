@@ -60,5 +60,26 @@ namespace appBTLQlyTV
             Account.ShowDialog();
             this.Show();
         }
+
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tácGiảToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fAuthor a = new fAuthor();
+            this.Hide();
+            a.ShowDialog();
+            this.Show();
+        }
+
+        private void sáchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fBookManagerment bm = new fBookManagerment();
+            this.Hide();
+            bm.ShowDialog();
+            this.Show();
+        }
     }
 }
