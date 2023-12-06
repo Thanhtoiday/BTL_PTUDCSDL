@@ -83,5 +83,21 @@ namespace appBTLQlyTV
             a.ShowDialog();
             this.Show();
         }
+
+        private void thểLoạiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fGenresManagerment g = new fGenresManagerment();
+            this.Hide();
+            g.ShowDialog();
+            this.Show();
+        }
+
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fCustomerManagerment cm = new fCustomerManagerment();
+            this.Hide();
+            cm.ShowDialog();
+            this.Show();
+        }
     }
 }
