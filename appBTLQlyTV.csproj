@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>appBTLQlyTV</RootNamespace>
     <AssemblyName>appBTLQlyTV</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -71,12 +71,6 @@
     <Compile Include="fBorrow.Designer.cs">
       <DependentUpon>fBorrow.cs</DependentUpon>
     </Compile>
-    <Compile Include="fCustomerManagerment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fCustomerManagerment.Designer.cs">
-      <DependentUpon>fCustomerManagerment.cs</DependentUpon>
-    </Compile>
     <Compile Include="fLatePaid.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,12 +89,6 @@
     <Compile Include="fMain.Designer.cs">
       <DependentUpon>fMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="fGenresManagerment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fGenresManagerment.Designer.cs">
-      <DependentUpon>fGenresManagerment.cs</DependentUpon>
-    </Compile>
     <Compile Include="fPublisher.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,9 +106,6 @@
     <EmbeddedResource Include="fBorrow.resx">
       <DependentUpon>fBorrow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fCustomerManagerment.resx">
-      <DependentUpon>fCustomerManagerment.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fLatePaid.resx">
       <DependentUpon>fLatePaid.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,9 +114,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fMain.resx">
       <DependentUpon>fMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fGenresManagerment.resx">
-      <DependentUpon>fGenresManagerment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fPublisher.resx">
       <DependentUpon>fPublisher.cs</DependentUpon>
@@ -144,7 +126,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
