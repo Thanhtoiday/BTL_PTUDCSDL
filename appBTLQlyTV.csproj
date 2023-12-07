@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>appBTLQlyTV</RootNamespace>
     <AssemblyName>appBTLQlyTV</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -58,6 +59,18 @@
     <Compile Include="fAccountManagement.Designer.cs">
       <DependentUpon>fAccountManagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="fAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAuthor.Designer.cs">
+      <DependentUpon>fAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBookManagerment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBookManagerment.Designer.cs">
+      <DependentUpon>fBookManagerment.cs</DependentUpon>
+    </Compile>
     <Compile Include="fBookSelf.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +112,12 @@
     <EmbeddedResource Include="fAccountManagement.resx">
       <DependentUpon>fAccountManagement.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fAuthor.resx">
+      <DependentUpon>fAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBookManagerment.resx">
+      <DependentUpon>fBookManagerment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fBookSelf.resx">
       <DependentUpon>fBookSelf.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +144,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -26,7 +26,7 @@ namespace appBTLQlyTV
         {
             try
             {
-                connection.ConnectionString = @"Data Source=.;Initial Catalog=QUANLYTHUvIEN;Integrated Security=True";
+                connection.ConnectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=QUANLYTHUvIEN;Integrated Security=True";
                 connection.Open();
             }
             catch { }
@@ -302,7 +302,7 @@ namespace appBTLQlyTV
             connection.Close();
             return data;
         }
-        public DataTable loadBorow()
+        public DataTable loadBorrow()
         {
             DataTable data = new DataTable();
             SqlCommand command = new SqlCommand();
