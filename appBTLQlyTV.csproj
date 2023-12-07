@@ -83,6 +83,18 @@
     <Compile Include="fBorrow.Designer.cs">
       <DependentUpon>fBorrow.cs</DependentUpon>
     </Compile>
+    <Compile Include="fCustomerManagerment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomerManagerment.Designer.cs">
+      <DependentUpon>fCustomerManagerment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fGenresManagerment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fGenresManagerment.Designer.cs">
+      <DependentUpon>fGenresManagerment.cs</DependentUpon>
+    </Compile>
     <Compile Include="fLatePaid.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +135,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fBorrow.resx">
       <DependentUpon>fBorrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCustomerManagerment.resx">
+      <DependentUpon>fCustomerManagerment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fGenresManagerment.resx">
+      <DependentUpon>fGenresManagerment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLatePaid.resx">
       <DependentUpon>fLatePaid.cs</DependentUpon>
