@@ -66,6 +66,7 @@
             this.dtgvBorrow.RowTemplate.Height = 24;
             this.dtgvBorrow.Size = new System.Drawing.Size(706, 525);
             this.dtgvBorrow.TabIndex = 0;
+            this.dtgvBorrow.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvBorrow_CellClick);
             // 
             // panel1
             // 
@@ -94,6 +95,7 @@
             this.btnThoat.TabIndex = 10;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnXoa
             // 
@@ -104,6 +106,7 @@
             this.btnXoa.TabIndex = 9;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnLapPhieu
             // 
@@ -114,6 +117,7 @@
             this.btnLapPhieu.TabIndex = 8;
             this.btnLapPhieu.Text = "Lập phiếu";
             this.btnLapPhieu.UseVisualStyleBackColor = true;
+            this.btnLapPhieu.Click += new System.EventHandler(this.btnLapPhieu_Click);
             // 
             // dpNgayTra
             // 
