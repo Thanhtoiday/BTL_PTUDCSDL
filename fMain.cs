@@ -67,21 +67,5 @@ namespace appBTLQlyTV
             this.Close();
             borrow.ShowDialog();
         }
-
-        private void sáchToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            fBookManagerment bm = new fBookManagerment();
-            this.Hide();
-            bm.ShowDialog();
-            this.Show();
-        }
-
-        private void tácGiảToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            fAuthor a = new fAuthor();
-            this.Hide();
-            a.ShowDialog();
-            this.Show();
-        }
     }
 }
