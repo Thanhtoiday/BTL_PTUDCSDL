@@ -26,7 +26,7 @@ namespace appBTLQlyTV
             password = txtPassword.Text;
             try
             {
-                using (SqlConnection conn = new SqlConnection(@"Data Source=.;Initial Catalog=QUANLYTHUvIEN;Integrated Security=True"))
+                using (SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=QUANLYTHUvIEN;Integrated Security=True"))
                 {
                     conn.Open();
                     String sql = "select count(*) from ACCOUNT where USERNAME=@username and PASSWORD =@password";
@@ -66,6 +66,11 @@ namespace appBTLQlyTV
             {
                 Application.Exit();
             }
+        }
+
+        private void fLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
