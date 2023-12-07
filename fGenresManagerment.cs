@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace appBTLQlyTV
 {
-    public partial class fAuthor : Form
+    public partial class fGenresManagerment : Form
     {
-        public fAuthor()
+        public fGenresManagerment()
         {
             InitializeComponent();
         }
@@ -20,57 +20,55 @@ namespace appBTLQlyTV
         private void load()
         {
             DataProvider provider = new DataProvider();
-            DataTable table = provider.loadAuthor();
-            dtgvAuthorList.DataSource = table;
+            DataTable table = provider.loadGenres();
+            dtgvGenresList.DataSource = table;
         }
 
         private void clear()
         {
-            txtAuthorName.Clear();
+            txtGenres.Clear();
         }
 
-        private void fAuthor_Load(object sender, EventArgs e)
+        private void fGenresManagerment_Load(object sender, EventArgs e)
         {
             load();
         }
 
+        private void dtgvGenresList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dtgvGenresList.Rows[0];
+                txtGenres.Text = row.Cells[0].Value.ToString();
+            }
+        }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            string authorname = txtAuthorName.Text;
-            string yeardate = txtYear.Text;
+            string genresname = txtGenres.Text;
             try
             {
                 DataProvider provider = new DataProvider();
-                provider.addAuthor(authorname, yeardate);
-                MessageBox.Show("Thêm tác giả thành công", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                provider.addGenres(genresname);
+                MessageBox.Show("Thêm thể loại thành công", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 load();
                 clear();
             }
             catch
             {
-                MessageBox.Show("Không thêm được tác giả", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Không thêm được thể loại", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void dtgvAuthorList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnDel_Click(object sender, EventArgs e)
         {
-            if (e.RowIndex >= 0)
-            {
-                DataGridViewRow row = dtgvAuthorList.Rows[e.RowIndex];
-                txtAuthorName.Text = row.Cells[0].Value.ToString();
-                txtYear.Text = row.Cells[1].Value.ToString();
-            }
-        }
-
-        private void bntDel_Click(object sender, EventArgs e)
-        {
-            string authorname = txtAuthorName.Text;
             try
             {
-                if (MessageBox.Show("Bạn có chắc muốn xóa tác giả ", "Notice", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+                if (MessageBox.Show("Bạn có chắc muốn xóa thể loại ", "Notice", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
                 {
+                    string genresname = txtGenres.Text;
                     DataProvider provider = new DataProvider();
-                    provider.delAuthor(authorname);
+                    provider.delGenres(genresname);
                     MessageBox.Show("Xóa thành công ", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     load();
                     clear();
